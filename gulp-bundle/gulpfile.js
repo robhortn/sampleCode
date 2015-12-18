@@ -1,17 +1,15 @@
 
-var gulp = require('gulp');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
+// gulpfile for gulp-bundle
+
+var gulp = require('gulp');						// Our task runner
+var concat = require('gulp-concat');			// Concats files 
+var uglify = require('gulp-uglify');			// Removes unnecessary spaces from file(s)
 
 gulp.task('scripts', function(){
-	//return console.log('scripts task ran');
-	gulp.src('./js/*.js')
-		.pipe(concat('appScripts.js'))
-		.pipe(uglify())
-		.pipe(gulp.dest('./dest/'));
+	gulp.src('./js/*.js')						// Grab all js files using globbing pattern
+		.pipe(concat('appScripts.js'))			// Concat all files into one
+		.pipe(uglify())							// Uglify the file, removing all unnecessary space
+		.pipe(gulp.dest('./dest/'));			// Copy formatted file to the destination folder
 });
-
-// Concat the JS files
-// Uglify the JS files
 
 gulp.task('default', ['scripts']);
