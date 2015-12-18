@@ -1,0 +1,18 @@
+{
+  "name": "samplecode",
+  "version": "1.0.0",
+  "description": "Collection of samplecode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/robhortn/sampleCode.git"
+  },
+  "author": "Rob Horton",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  }
+}
