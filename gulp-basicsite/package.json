@@ -1,0 +1,16 @@
+{
+  "name": "gulp-basicsite",
+  "version": "1.0.0",
+  "description": "Basic site illustrating the running of a webserver and opening a default file.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Horton",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-open": "^1.0.0"
+  }
+}
