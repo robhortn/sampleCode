@@ -1,8 +1,1 @@
-function doThat(){
-	return true;
-}
-doThat();
-function doThis(){
-	return true;
-}
-doThis();
+!function(){console.log("doThat activated")}(),function(){console.log("doThis activated")}();

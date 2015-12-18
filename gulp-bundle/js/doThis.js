@@ -1,4 +1,3 @@
-function doThis(){
-	return true;
-}
-doThis();
+(function doThis(){
+	console.log('doThis activated');
+})();

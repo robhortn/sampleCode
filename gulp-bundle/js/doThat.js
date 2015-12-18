@@ -1,4 +1,3 @@
-function doThat(){
-	return true;
-}
-doThat();
+(function doThat(){
+	console.log('doThat activated');
+})();
