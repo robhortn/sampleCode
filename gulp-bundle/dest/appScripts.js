@@ -1,1 +1,0 @@
-!function(){console.log("doThat activated")}(),function(){console.log("doThis activated")}();
